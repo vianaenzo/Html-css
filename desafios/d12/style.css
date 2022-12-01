@@ -15,8 +15,9 @@
     padding: 0px;
 }
 
-body {
-
+body, html {
+    background-color: darkgrey;
+    min-height: 100vh;
 }
 
 header {
@@ -50,6 +51,7 @@ nav > a {
 
 nav a:hover {
     text-decoration: underline;
+    font-weight: bolder;
 }
 
 section {
