@@ -123,11 +123,19 @@ article {
     background-color: var(--cor02);
     
     
+    
 }
 
+
+
 div#primeiraacademia {
-    background-color: #A4BFAE;
+    background-image: url(imagens/primeira\ academia.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-position: center center;
     
+      
     
 }
 
@@ -155,7 +163,8 @@ div#primeiraacademia > p {
     padding-right: 10px;
     margin-left: 10px;
     margin-right: 10px;
-    
+    font-variant: small-caps;
+    color: black;
 }
 
 div#segundaacdemia {
@@ -187,5 +196,6 @@ div#segundaacademia > p {
     padding-right: 10px;
     margin-left: 10px;
     margin-right: 10px;
+    font-variant: small-caps;
     
 }
