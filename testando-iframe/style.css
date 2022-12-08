@@ -1,0 +1,191 @@
+
+
+:root {
+    --cor01: #115923;
+    --cor02: #2B8C44;
+    --cor03: #A4BFAE;
+    --cor04: #1F7334;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    line-height: 1.4em;
+}
+
+header {
+    background-image: linear-gradient(to right, #115923, #A4BFAE );
+    display: block;
+}
+
+header > h1 {
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-variant: small-caps;
+    padding-bottom: 20px;
+}
+
+
+img#logo {
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+}
+
+
+nav {
+    background-image: linear-gradient(to bottom, #115923, #A4BFAE);
+    height: 40px;
+    padding-top: 13px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    
+    
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 8px;
+   
+}
+
+
+nav a:hover {
+    border: 1px solid white;
+    padding: 10px;
+    background-color: #1E6FD9;
+    border-radius: 15px;
+    
+    
+}
+
+main  h1 {
+    color: white;
+    padding-bottom: 10px;
+    text-align: center;
+    font-variant: small-caps;
+    padding: 15px;
+    box-shadow: 1px 1px 1px;
+    
+}
+
+
+main {
+    background-color: white;
+    
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 20px;
+    }
+
+ #brasileirao {
+   width: 100%;       
+}
+
+p.pfoto {
+    text-align: center;
+    font-variant: small-caps;
+    color: white;
+    padding-bottom: 15px;
+} 
+    
+ul {
+    text-align: justify;
+    list-style-type: none;
+    padding-left: 20px;
+    padding-bottom: 25px;
+    padding-top: 20px;
+
+}
+
+
+main p {
+    text-align: justify;
+    text-indent: 1.4em;
+    padding-top: 8px;
+    padding-bottom: 12px;
+    padding-left: 5px;
+    padding-right: 5px;
+    line-height: 1.5em;
+}
+
+article {
+    background-color: var(--cor02);
+    
+    
+}
+
+div#primeiraacademia {
+    background-color: #A4BFAE;
+    
+    
+}
+
+div#primeiraacademia > h2 {
+    padding: 20px;
+    text-align: center;
+    color: white;
+    box-shadow: 1px 1px 1px #1F7334;
+    
+}
+
+div#primeiraacademia > h3 {
+    text-align: center;
+    padding-top: 15px;
+    color: white;
+    padding-bottom: 5px;
+}
+
+div#primeiraacademia > p {
+    text-align: justify;
+    text-indent: 1.4em;
+    padding-top: 8px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+div#segundaacdemia {
+    background-color: green;
+}
+
+div#segundaacademia > h2 {
+    padding: 20px;
+    text-align: center;
+    color: white;
+    box-shadow: 1px 1px 1px #1F7334;
+    }
+    
+
+div#segundaacademia > h3 {
+    text-align: center;
+    padding-top: 15px;
+    color: white;
+    padding-bottom: 5px;
+
+}
+
+div#segundaacademia > p {
+    text-align: justify;
+    text-indent: 1.4em;
+    padding-top: 8px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
